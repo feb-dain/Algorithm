@@ -7,7 +7,7 @@
 // 제한사항
 // 1 ≤ my_str의 길이 ≤ 100
 // 1 ≤ n ≤ my_str의 길이
-// my_str은 알파벳 소문자, 대문자, 숫자로 이루어져 있습니다.=
+// my_str은 알파벳 소문자, 대문자, 숫자로 이루어져 있습니다.
 
 // 입출력 예
 // my_str                  n     result
@@ -23,6 +23,6 @@ function solution(my_str, n) {
 }
 
 // 정규 표현식
-function solution(my_str, n) {
-  return my_str.match(new RegExp(`.{1,${n}}`, "g"));
-}
+// function solution(my_str, n) {
+//   return my_str.match(new RegExp(`.{1,${n}}`, "g"));
+// }
